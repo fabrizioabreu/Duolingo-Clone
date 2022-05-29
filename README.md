@@ -1,27 +1,95 @@
-# App1
+<div align="center">
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+# Aplicação Web - DuoLingo Clone
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/fabrizioabreu/bookstore-api/blob/master/LICENSE) 
 
-## Development server
+# Sobre o projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Uma aplicação web utilizando Angular + Bootstrap
 
-## Code scaffolding
+A aplicação consiste em um sistema de aprendizado de frases em inglês.
+Com dinamica de jogo, onde você deve acertar a tradução das 4 frases para ganhar.
+Caso erre a tradução, você perde um coração.
+Se perder todos corações, o jogo acaba.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Layout web
+![Logo do Markdown](https://github.com/fabrizioabreu/assets/blob/master/DuoLingo/DuoLingo-Clone.gif)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<p align="center">
+<img src="https://img.shields.io/badge/HTML%20-%23F7DF1E.svg?&style=for-the-badge&color=E34F26" />&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/css%20-%23F7DF1E.svg?&style=for-the-badge&color=5BA8EE" />&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Angular%20-%23F7DF1E.svg?&style=for-the-badge&color=DD0031" />&nbsp;&nbsp;
+</p>
 
-## Running unit tests
+<p align="center">
+	<a href="https://github.com/fabrizioabreu"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
+	<a href="https://www.linkedin.com/in/fabrizio-abreu-88925587/"><img src="https://img.icons8.com/bubbles/50/000000/linkedin.png" alt="LinkedIn"/></a>
+	<a href="https://www.instagram.com/fabrizioabreuu/"><img src="https://img.icons8.com/bubbles/50/000000/instagram.png" alt="Instagram"/></a>
+</p>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Ao longo do projeto, foram abordadas boas práticas, tais como:
 
-## Running end-to-end tests
+## Projeto feito com um único módulo mas dividido em 5 componentes distintos.
+![](https://github.com/fabrizioabreu/assets/blob/master/DuoLingo/DuoLingo-Clone-img_01.png)
+  
+  
+  
+## Databinding
+Utilizado para fazer a comunicação entre o template com Component
+![](https://github.com/fabrizioabreu/assets/blob/master/DuoLingo/DuoLingo-Clone-img_02.png)
+  
+  
+  
+## String Interpolation:
+Faz com que um atributo do componente seja renderizado para o template HTML
+![](https://github.com/fabrizioabreu/assets/blob/master/DuoLingo/DuoLingo-Clone-img_03.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+  
+  
+## Property Binding:
+Atributos da classe do componente sejam encaminhados para o template HTML
+![](https://github.com/fabrizioabreu/assets/blob/master/DuoLingo/DuoLingo-Clone-img_04.png)
 
-## Further help
+  
+  
+## Utilizado Mock que contem instâncias das frases em inglês
+![](https://github.com/fabrizioabreu/assets/blob/master/DuoLingo/DuoLingo-Clone-img_05.png)
+  
+  
+  
+## Event Binding:
+Recuperando eventos disparados no template para executar métodos na classe
+![](https://github.com/fabrizioabreu/assets/blob/master/DuoLingo/DuoLingo-Clone-img_06.png)
+  
+  
+  
+## Diretivas:
+Funcionalidades que manipulam o comportamento de elemntos HTML
+![](https://github.com/fabrizioabreu/assets/blob/master/DuoLingo/DuoLingo-Clone-img_07.png)
+  
+  
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## LiveCycle Hooks:
+Ciclo de vida dos componentes
+![](https://github.com/fabrizioabreu/assets/blob/master/DuoLingo/DuoLingo-Clone-img_08.png)
+  
+</div>
+
+# Tecnologias utilizadas
+- HTML / CSS 
+- Angular 13
+- Bootstrap
+
+# Autor
+
+Fabrizio Queiroz de Abreu
+
+<p align="center">
+	<a href="https://github.com/fabrizioabreu"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
+	<a href="https://www.linkedin.com/in/fabrizio-abreu-88925587/"><img src="https://img.icons8.com/bubbles/50/000000/linkedin.png" alt="LinkedIn"/></a>
+	<a href="https://www.instagram.com/fabrizioabreuu/"><img src="https://img.icons8.com/bubbles/50/000000/instagram.png" alt="Instagram"/></a>
+</p>
+
+
+
