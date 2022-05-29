@@ -1,0 +1,16 @@
+.col {
+    margin-top: 3rem;
+    text-align: center;    
+}
+
+.errou {
+    color: red;
+}
+
+.acertou {
+    color: green
+}
+
+.btn {
+    margin-top: 3rem;
+}

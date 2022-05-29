@@ -6,5 +6,25 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app1';
+
+  jogoEmAndamento: boolean = true
+  tipoEncerramento!: string;
+  
+  /**
+   * Encerra o jogo e muda de tela.
+   * 
+   * @param tipo string
+   */
+  public encerrarJogo(tipo: string): void {
+    this.jogoEmAndamento = false;
+    this.tipoEncerramento = tipo;
+  }
+
+  /**
+   * Reinicia as variáveis de início do jogo
+   */
+  public reiniciarJogo(): void {
+    this.jogoEmAndamento = true;
+    this.tipoEncerramento = '';
+  }
 }
